@@ -1,0 +1,139 @@
+.search-bar {
+  display: block;
+}
+
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index:100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 288);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  height: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.ytlogo {
+  height: 20px;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  flex: 1;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+.search {
+  height: 40px;
+  width: 60px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  height: 25px;
+}
+.voiceicon {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  border: none;
+}
+
+.voices-icon {
+  height: 24px;
+  margin-top: 4px;
+}
+
+.right-section {
+  width: 180px;
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.upload-icon {
+  height: 24px;
+}
+
+.youtubeapp-icon {
+  height: 24px;
+}
+
+.notify-icon {
+  height: 24px;
+}
+
+.user-icon {
+  height: 32px;
+  border-radius: 16px;
+}
+
+/* sidebar */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  width:72px;
+  bottom: 0;
+  background-color: white;
+  
+}
+
+.notify-container {
+  position:relative;
+}
+.notification-count{
+  font-family:Roboto, Arial;
+  background-color:rgb(200,0,0);
+  color:white;position:absolute;
+  top: -5px;
+  right:-5px;
+  font-size: 12px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:2px;
+  padding-top:2px;
+  border-radius:10px;
+}
